@@ -5,7 +5,7 @@
 }
 
 nav{
-    height: 150px;
+    height: 110px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -68,4 +68,194 @@ nav{
     gap: 20px;
 }
 
+/* ---------- everything below is new ---------- */
 
+body{
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.main{
+    background-color: #f5f5f5;
+    padding: 15px 60px 30px 60px;
+}
+
+/* search box */
+.searchflight{
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+.left{
+    display: flex;
+    gap: 35px;
+}
+
+.left li{
+    list-style: none;
+}
+
+.left .active{
+    background-color: white;
+    color: rgb(200, 20, 50);
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.right{
+    background-color: #fde4e8;
+    color: rgb(200, 20, 50);
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.trip{
+    display: flex;
+    gap: 10px;
+    margin: 22px 0 18px 0;
+    font-size: 12px;
+}
+
+.multi{
+    color: blue;
+}
+
+.flightdata{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.place h1{
+    font-size: 28px;
+    color: gray;
+}
+
+.place p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.field{
+    border-left: 1px solid #ccc;
+    padding-left: 12px;
+}
+
+.field small{
+    color: gray;
+    font-size: 10px;
+}
+
+.field p{
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.search-btn{
+    margin-left: auto;
+    background-color: #e0667a;
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login-offer{
+    width: fit-content;
+    margin: 15px 0 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 12px;
+}
+
+/* exclusive deals */
+.deals-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.deals-top h2{
+    font-size: 24px;
+    color: rgb(190, 20, 50);
+    margin-bottom: 8px;
+}
+
+.deals-top p{
+    font-size: 14px;
+}
+
+.viewall{
+    background-color: white;
+    color: rgb(190, 20, 50);
+    border: 1px solid rgb(190, 20, 50);
+    padding: 14px 16px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.deals{
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.deal{
+    flex: 1;
+    height: 105px;
+    background: linear-gradient(to right, #2a0510, #8a0f4a);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 33px 24px;
+    border-radius: 8px;
+}
+
+.dots{
+    text-align: center;
+    margin: 18px 0;
+}
+
+.dot{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.dot.red{
+    background-color: rgb(190, 20, 50);
+}
+
+/* hotels, car booking etc */
+.services{
+    display: flex;
+    gap: 18px;
+}
+
+.service{
+    flex: 1;
+    background-color: white;
+    padding: 22px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}

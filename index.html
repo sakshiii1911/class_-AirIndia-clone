@@ -34,23 +34,93 @@
        </div>
     </nav>
 
+    <div class="main">
+
     <div class="searchflight">
         <div class="menubar">
             <ul class="left">
-                <li>SEARCHFLIGTS</li>
-                <li>MANAGEBOOKINGS</li>
+                <li class="active">SEARCH FLIGHTS</li>
+                <li>MANAGE BOOKING</li>
                 <li>CHECK-IN</li>
-                <li>FLIGHTSTATUS</li>
-                <li>eZ BOOKINGS</li>
+                <li>FLIGHT STATUS</li>
+                <li>eZ Booking</li>
             </ul>
             <div class="right">
-                Flat 10% off for students
+                Flat 10% off for Students
             </div>
         </div>
 
-        <div class="flightdata">
-            
+        <div class="trip">
+            <label><input type="radio" name="trip" checked> Round Trip</label>
+            <label><input type="radio" name="trip"> One Way</label>
+            <label class="multi">Multi City</label>
         </div>
+
+        <div class="flightdata">
+            <div class="place">
+                <h1>FROM</h1>
+                <p>Origin</p>
+            </div>
+            <div class="place">
+                <h1>TO</h1>
+                <p>Destination</p>
+            </div>
+            <div class="field">
+                <small>Depart</small>
+                <p>Select Date</p>
+            </div>
+            <div class="field">
+                <small>Return</small>
+                <p>Select Date</p>
+            </div>
+            <div class="field">
+                <small>Passenger(s)</small>
+                <p>1 Adult</p>
+            </div>
+            <div class="field">
+                <small>Class</small>
+                <p>Economy</p>
+            </div>
+            <div class="field">
+                <small>Concession Type</small>
+                <p>None</p>
+            </div>
+            <button class="search-btn">Search</button>
+        </div>
+
+        <div class="login-offer">Logged-in users enjoy up to 15% off on fares</div>
     </div>
+
+    <div class="deals-top">
+        <div>
+            <h2>EXCLUSIVE DEALS</h2>
+            <p>Uncover a range of deals and discounts, curated to ensure you get unbeatable value every time you fly with us.</p>
+        </div>
+        <button class="viewall">View All</button>
+    </div>
+
+    <div class="deals">
+        <div class="deal">BANK<br>OFFERS</div>
+        <div class="deal">DISCOUNT<br>CODES</div>
+        <div class="deal">LIMITED TIME<br>DEALS</div>
+        <div class="deal">SPECIAL<br>FARES</div>
+    </div>
+
+    <div class="dots">
+        <span class="dot red"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="services">
+        <div class="service">HOTELS <span>&gt;</span></div>
+        <div class="service">CAR BOOKING <span>&gt;</span></div>
+        <div class="service">DUTY FREE <span>&gt;</span></div>
+        <div class="service">GIFT CARD <span>&gt;</span></div>
+    </div>
+
+</div>
 </body>
 </html>
